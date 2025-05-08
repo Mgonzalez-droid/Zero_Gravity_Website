@@ -1,1 +1,17 @@
-<p>admin works!</p>
+<div class="full-page-container">
+    <div class="login-container">
+        <img
+            src="assets/logo.avif"
+            alt="Admin Login Logo"
+            width="200"
+            style="margin-bottom: 20px"
+        />
+        <!-- <input type="text" placeholder="Username" [(ngModel)]="username" /> -->
+        <input type="text" placeholder="Username"/>
+        <!-- <input type="password" placeholder="Password" [(ngModel)]="password" /> -->
+        <input type="password" placeholder="Password"/>
+        <button (click)="login()">Login</button>
+        <a routerLink="/forgot-password" class="forgot-password">Forgot Password?</a>
+    </div>
+</div>
+
