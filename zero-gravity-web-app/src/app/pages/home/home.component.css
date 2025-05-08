@@ -1,0 +1,92 @@
+.top-toolbar {
+    background-color: #ffffff;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+.top-toolbar img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-links a:hover {
+    color: #000000;
+    /* text-decoration: underline; */
+}
+
+.component-section {
+    padding: 80px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    font-style: italic;
+    background-color: #ffffff; /* white background */
+    border-radius: 12px; /* rounded corners */
+    padding: 40px 20px; /* inner spacing */
+    margin: 40px auto; /* spacing between components */
+    width: 90%; /* responsive width */
+    max-width: 1000px; /* limit width on large screens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* subtle shadow */
+}
+
+.main-background {
+    background-image: url('../../../assets/smoky_background.avif');
+      background-size: cover;
+      /* height: 500px;*/ /* Added as part of single component design */
+      height: auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 40px 0;
+      border-radius: 20px; /* Rounded corners */
+      overflow: hidden;    /* Ensures children don’t spill over the corners */
+      margin: 20px;
+}
+
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.svg-link {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Smooth transform effect */
+}
+
+.svg-icon {
+    width: 25px; /* Set the initial width */
+    height: 25px; /* Set the initial height */
+    transition:
+        transform 0.3s ease,
+        width 0.3s ease,
+        height 0.3s ease; /* Smooth transition */
+}
